@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marigold</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/hamburger.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+ <!-- ================= Navbar ============== -->
+    
+      <nav class="navbar navbar-expand-lg fixed-top shadow">
+        <div class="container">
+          <a class="navbar-brand" href="#">Marigold</a>
+          <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+
+<!-- ========================= Carousel =============================  -->
+<main id="hero" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item" data-bs-interval="5000">
+      <img src="src/img/slide-1.jpg" class="d-block w-100 c-img" alt="slide1">
+      <div class="carousel-caption">
+        <h1 class="caption-1">WELCOME TO MARIGOLD</h1>
+        <h2>IT'S NICE TO MEET YOU</h2>
+        <a href="#services" class="btn shadow-lg">Learn More</a>
+      </div>
+    </div>
+    <div class="carousel-item c-item" data-bs-interval="5000">
+      <img src="src/img/slide-2.jpg" class="d-block w-100 c-img" alt="slide2">
+      <div class="carousel-caption">
+        <h1 class="caption-2">CREATE THE BEST DAY EVER</h1>
+        <h2>WITH OUR BEST SERVICES</h2>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="src/img/slide-3.jpg" class="d-block w-100 c-img" alt="...">
+      <div class="carousel-caption">
+        <h1 class="caption-3"></h1>
+        <h2></h2>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</main>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff6e4" fill-opacity="1" d="M0,128L80,122.7C160,117,320,107,480,122.7C640,139,800,181,960,186.7C1120,192,1280,160,1360,144L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+<!-- ===================== Services ===================== -->
+<section id="services" class="services">
+  <div class="container">
+    <h2 class="text-center" data-aos="fade-up" data-aos-duration="900">Our Best Services</h2>
+    <div class="row text-center">
+      <div class="col-md-4 d-flex align-item-center justify-content-center" data-aos="fade-up" data-aos-duration="900">
+        <div class="card shadow-lg " style="width: 20rem;">
+          <img src="src/img/yd-fix-logo.png" class="card-img-top" alt="logoyd">
+          <div class="card-body">
+            <h5 class="card-title">Wedding Organizer</h5>
+            <p class="card-text">Perencana pernikahan profesional yang membantu merancang, merencanakan, dan mengelola pernikahan.</p>
+            <a href="#" class="btn shadow">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex align-item-center justify-content-center" data-aos="fade-up" data-aos-duration="900">
+        <div class="card shadow-lg" style="width: 20rem;">
+          <img src="src/img/new-marigold.png" class="card-img-top" alt="logomarigold">
+          <div class="card-body">
+            <h5 class="card-title">Wedding Decoration</h5>
+            <p class="card-text">Penyedia dekorasi serta perencana design profesional pelaksanaan pernikahan.</p>
+            <a href="#" class="btn shadow">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex align-item-center justify-content-center" data-aos="fade-up" data-aos-duration="900">
+        <div class="card shadow-lg" style="width: 20rem;">
+          <img src="src/img/dikenang-logo.png" class="card-img-top" alt="logoyd">
+          <div class="card-body">
+            <h5 class="card-title">Wedding Photographer</h5>
+            <p class="card-text">Penyedia jasa photographer profesional, melayani foto prewed hingga wedding Photography.</p>
+            <a href="#" class="btn shadow">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== About ================== -->
+
+<section id="about" class="about">
+<div class="container">
+  <h2 class="text-center" data-aos="fade-up" data-aos-duration="900">About Us</h2>
+  <div class="row">
+    <ul class="timeline" data-aos="fade-up" data-aos-duration="900">
+      <li>
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="src/img/new-marigold.png" alt="..." /></div>
+          <div class="timeline-panel">
+              <div class="timeline-heading">
+                  <h4>2018</h4>
+                  <h4 class="subheading">Marigold</h4>
+              </div>
+              <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+          </div>
+      </li>
+      <li class="timeline-inverted">
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="src/img/yd-fix-logo.png" alt="..." /></div>
+          <div class="timeline-panel">
+              <div class="timeline-heading">
+                  <h4>March 2019</h4>
+                  <h4 class="subheading">Your Day</h4>
+              </div>
+              <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+          </div>
+      </li>
+      <li>
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="/src/img/dikenang-logo.png" alt="..." /></div>
+          <div class="timeline-panel">
+              <div class="timeline-heading">
+                  <h4>December 2021</h4>
+                  <h4 class="subheading">Dikenang Foto Studio</h4>
+              </div>
+              <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+          </div>
+      </li>
+      
+      <li class="timeline-inverted">
+          <div class="timeline-image">
+              <h4>
+                  Be Part
+                  <br />
+                  Of Our
+                  <br />
+                  Story!
+              </h4>
+          </div>
+      </li>
+  </ul>
+  </div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff6e4" fill-opacity="1" d="M0,128L80,122.7C160,117,320,107,480,122.7C640,139,800,181,960,186.7C1120,192,1280,160,1360,144L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+</section>
+
+<!-- ==================== Gallery ================= -->
+<section id="gallery" class="gallery" data-aos="fade-right" data-aos-duration="900">
+  <div class="container">
+    <h2 class="text-center">Our Gallery</h2>
+    <div class="row">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+                <div class="card-gallery">
+                  <img src="src/img/gallery/1.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card-gallery">
+                  <img src="src/img/gallery/2.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card-gallery">
+                  <img src="src/img/gallery/3.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card-gallery">
+                  <img src="src/img/gallery/4.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card-gallery">
+                  <img src="src/img/gallery/5.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card-gallery">
+                  <img src="src/img/gallery/6.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,240C640,235,800,181,960,149.3C1120,117,1280,107,1360,101.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+</section>
+
+<!-- ===================== Team =================== -->
+<section id="team" class="team">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up" data-aos-duration="900">
+        <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+        <h3 class="section-subheading text-muted">Stay Connected With Us</h3>
+    </div>
+    <div class="row">
+        <div class="col-lg-4" data-aos="fade-right" data-aos-duration="900">
+            <div class="team-member">
+                <img class="mx-auto rounded-circle" src="src/img/yd-fix-logo.png"alt="..." />
+                <h4>Your Day Organizer</h4>
+                <p class="text-muted">Wedding Organizer</p>
+                <a href=""><i class="bi bi-whatsapp"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4" data-aos="fade-left" data-aos-duration="900">
+            <div class="team-member">
+                <img class="mx-auto rounded-circle" src="src/img/new-marigold.png" alt="..." />
+                <h4>Marigold</h4>
+                <p class="text-muted">Wedding Decoration</p>
+                <a href=""><i class="bi bi-whatsapp"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4" data-aos="fade-right" data-aos-duration="900">
+            <div class="team-member">
+                <img class="mx-auto rounded-circle" src="src/img/dikenang-logo.png" alt="..." />
+                <h4>Dikenang Studio</h4>
+                <p class="text-muted">Photographer | Videographer</p>
+                <a href=""><i class="bi bi-whatsapp"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 mx-auto text-center" data-aos="fade-up" data-aos-duration="900"><p class="large text-muted">Let's Create the best day ever with us .</p></div>
+    </div>
+</div>
+</section>
+
+<!-- ============ Footer ============= -->
+  <footer class="text-center text-white p-4">
+    <p>Created by <a href="https://www.instagram.com/ilhamtrim/" class="text-white fw-bold"><i class="bi bi-instagram"></i> Ilham Tri Maulana</a></p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- My Javascript -->
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
